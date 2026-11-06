@@ -23,17 +23,17 @@ const CONTACTS = {
 
 /* Загруженные изображения, размещённые вместе с сайтом. */
 const IMG = {
-  hero: "assets/images/science.webp",
-  bubbles: "assets/images/bubbles.webp",
-  silver: "assets/images/silver.webp",
-  science: "assets/images/science.webp",
-  tesla: "assets/images/tesla.webp",
-  cryo: "assets/images/cryo-show.webp",
-  icecream: "assets/images/molecular.webp",
-  molecular: "assets/images/molecular.webp",
-  multimedia: "assets/images/multimedia.webp",
-  outdoorshow: "assets/images/outdoorshow.webp",
-  forest: "assets/images/forest.webp"
+  hero: "images/science.webp",
+  bubbles: "images/bubbles.webp",
+  silver: "images/silver.webp",
+  science: "images/science.webp",
+  tesla: "images/tesla.webp",
+  cryo: "images/cryo-show.webp",
+  icecream: "images/molecular.webp",
+  molecular: "images/molecular.webp",
+  multimedia: "images/multimedia.webp",
+  outdoorshow: "images/outdoorshow.webp",
+  forest: "images/forest.webp"
 };
 
 /* Каталог услуг. Цены — утверждённые, не менять. */
@@ -106,7 +106,7 @@ const SERVICES = [
     audience:"Для всех возрастов",
     price:"от 5 000 ₽",
     variants:[],
-    image:"assets/images/cryo.webp",
+    image:"images/cryo.webp",
     alt:"Работа с жидким азотом — фото крио-программы"
   },
   {
