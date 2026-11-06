@@ -106,7 +106,7 @@ const SERVICES = [
     audience:"Для всех возрастов",
     price:"от 5 000 ₽",
     variants:[],
-    image:"assets/images/cryo.webp",
+    image:IMG.icecream,
     alt:"Работа с жидким азотом — фото крио-программы"
   },
   {
