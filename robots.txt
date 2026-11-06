@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Замените example.com на ваш реальный домен после подключения
+Sitemap: https://gonashow-kirov.netlify.app/
