@@ -254,3 +254,19 @@ body.nav-open .nav-toggle span:nth-child(3){transform:translateY(-7px) rotate(-4
 .team-gallery .item{aspect-ratio:3/4}
 @media(max-width:900px){.about-intro{grid-template-columns:1fr;gap:2rem}.team-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.team-gallery{grid-template-columns:1fr}.contact-line{overflow-wrap:anywhere}}
+
+/* Фоновое изображение с затемнением */
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Повторяющийся фон (паттерн) */
+body {
+  background-image: url('../images/pattern.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
