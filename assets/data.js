@@ -29,7 +29,7 @@ const IMG = {
   science: "images/science.webp",
   tesla: "images/tesla.webp",
   cryo: "images/cryo-show.webp",
-  icecream: "images/molecular.webp",
+  icecream: "images/cryo.webp",
   molecular: "images/molecular.webp",
   multimedia: "images/multimedia.webp",
   outdoorshow: "images/outdoorshow.webp",
