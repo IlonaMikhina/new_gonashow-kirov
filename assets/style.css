@@ -263,10 +263,3 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-/* Повторяющийся фон (паттерн) */
-body {
-  background-image: url('../images/pattern.png');
-  background-repeat: repeat;
-  background-attachment: fixed;
-}
