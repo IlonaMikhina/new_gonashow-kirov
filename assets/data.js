@@ -23,17 +23,23 @@ const CONTACTS = {
 
 /* Загруженные изображения, размещённые вместе с сайтом. */
 const IMG = {
-  hero: "assets/images/science.webp",
-  bubbles: "assets/images/bubbles.webp",
-  silver: "assets/images/silver.webp",
-  science: "assets/images/science.webp",
-  tesla: "assets/images/tesla.webp",
-  cryo: "assets/images/cryo-show.webp",
-  icecream: "assets/images/molecular.webp",
-  molecular: "assets/images/molecular.webp",
-  multimedia: "assets/images/multimedia.webp",
-  outdoorshow: "assets/images/outdoorshow.webp",
-  forest: "assets/images/forest.webp"
+  hero: "images/science.webp",
+  bubbles: "images/bubbles.webp",
+  silver: "images/silver.webp",
+  science: "images/science.webp",
+  tesla: "images/tesla.webp",
+  cryo: "images/cryo-show.webp",
+  icecream: "images/cryo.webp",
+  molecular: "images/molecular.webp",
+  multimedia: "images/multimedia.webp",
+  outdoorshow: "images/outdoorshow.webp",
+  forest: "images/forest.webp",
+  teamDuo: "images/team-ilona-nikita.webp",
+  teamGuests: "images/team-guests.webp",
+  teamChildren: "images/team-children.webp",
+  teamOutdoors: "images/team-outdoors.webp",
+  teamCharacters: "images/team-characters.webp",
+  teamKindergarten: "images/team-party.webp"
 };
 
 /* Каталог услуг. Цены — утверждённые, не менять. */
@@ -106,8 +112,8 @@ const SERVICES = [
     audience:"Для всех возрастов",
     price:"от 5 000 ₽",
     variants:[],
-    image:"assets/images/cryo.webp",
-    alt:"Работа с жидким азотом — фото крио-программы"
+    image:IMG.icecream,
+    alt:"Крио-мороженое в Кирове — повар готовит десерт на жидком азоте"
   },
   {
     id:"multimedia",
@@ -149,11 +155,14 @@ const GALLERY = [
   { url:IMG.silver, alt:"Серебряное шоу — дети в блестящих лентах" },
   { url:IMG.science, alt:"Научные эксперименты с цветными реактивами" },
   { url:IMG.tesla, alt:"Электрические разряды на Tesla-шоу" },
-  { url:IMG.cryo, alt:"Эксперименты с жидким азотом" },
+  { url:IMG.cryo, alt:"Крио-шоу на открытом воздухе — облака азотного пара" },
   { url:IMG.multimedia, alt:"Мультимедийное шоу с экраном и визуальными эффектами" },
   { url:IMG.molecular, alt:"Молекулярная кухня — эффектная подача" },
-  { url:IMG.outdoorshow, alt:"Научное шоу на открытом воздухе перед зрителями" },
-  { url:IMG.forest, alt:"Артист с дымящейся колбой в образе учёного" }
+  { url:IMG.icecream, alt:"Крио-мороженое — десерт на жидком азоте" },
+  { url:IMG.forest, alt:"Артист с дымящейся колбой в образе учёного" },
+  { url:IMG.teamOutdoors, alt:"Праздник во дворе — ведущие и дети" },
+  { url:IMG.teamGuests, alt:"Команда ГОУ НА ШОУ с гостями праздника" },
+  { url:IMG.teamCharacters, alt:"Ведущие в образах супергероев" }
 ];
 
 /* Частые вопросы */
